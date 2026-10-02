@@ -3,7 +3,7 @@ name: CI Pipeline
 on:
   # Manual trigger for the workflow
   workflow_dispatch:
-
+  #automatically run CI on every push to main
   push:
     branches:
       - main
